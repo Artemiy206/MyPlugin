@@ -1,0 +1,49 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+.idea_modules/
+
+# Build output directories
+out/
+build/
+
+# Gradle
+.gradle/
+.gradle-cache/
+*.log
+*.bat
+*.sh
+.gradle-task-cache/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debugging files
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local environment files
+.env
+*.env
+.vscode/
+*.code-workspace
+local.properties
+
+# Plugin-related artifacts
+plugin/*.zip
+plugin/*.jar
+plugin/build/
+plugin/out/

@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>com.optimizer.code-optimizer</id>
+    <name>Code Optimizer Plugin</name>
+    <version>1.0.0</version>
+    <vendor email="your_email@example.com" url="https://your-website.com">Your Name or Company</vendor>
+    <description>
+        A plugin to learn and practice code optimization techniques.
+    </description>
+
+    <change-notes>
+        Initial MVP release.
+    </change-notes>
+
+    <!-- Dependencies -->
+    <depends>com.intellij.modules.clion</depends>
+
+    <!-- Extensions -->
+    <actions>
+        <!-- Action: Open Educational Material -->
+        <action id="AnalyzeCodeForPatternsAction"
+                class="com.optimizer.actions.AnalyzeCodeForPatternsAction"
+                text="Analyze Code for Patterns"
+                description="Analyze the code and suggest optimization patterns">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+
+        <action id="StartInteractiveTaskAction"
+                class="com.optimizer.actions.StartInteractiveTaskAction"
+                text="Интерактивные задания"
+                description="Запустите интерактивное задание для улучшения кода">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+
+    </actions>>
+</idea-plugin>
